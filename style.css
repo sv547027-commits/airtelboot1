@@ -1,0 +1,135 @@
+.toparea{
+    padding: 0px 90px;
+}
+.container-fluid{
+    padding: 0 80px !important;
+}
+.navbar-brand{
+    padding: 0 30px !important;
+}
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+.nav-link{
+    color:blue !important;
+    border-top:2px solid transparent;
+
+}
+.nav-link:hover{
+    color: red;
+    border-top: solid 2px red;
+}
+.part1{
+    display: flex;
+    gap: 12px;
+}
+.part1 h6{
+    font-size: 15px;
+    float: left;
+    margin-left: 20px;
+}
+.imagearea{
+    padding: 0 0;
+    width: 100%;
+    height: 10%;
+
+}
+.text1{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.abox{
+    border-radius: 15px 15px 10px 10px;
+    margin-top: 40px;
+    border: solid 1px black;
+    height: 360px;
+    width: 300px;
+}
+.aboximage img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.aboxdata{
+    padding: 20px;
+    background: #fff;
+
+}
+.aboxdata h6{
+    font-size: 12px;
+    color: #696B6F;
+    font-weight: 600;
+}
+.aboxdata h3{
+    font-size: 19px;
+    color: #3E4146;
+    font-weight: 600;
+}
+.aboxdata p{
+    color: #6E6B6F;
+    font-size: 12px;
+    width: 300px;
+}
+.aboxdata button{
+    padding: 4px 20px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+}
+.aboxdata a{
+    text-decoration: none;
+    color: #2F5EE8;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px;
+}
+.aboxdata a:hover{
+    border-bottom: solid 2px #2F5EE8;
+    border-left: solid 1px #2F5EE8;
+
+}
+.bbox{
+    height: 380px;
+    width: 350px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background: #F4F5FF;
+    padding: 20px;
+}
+.bbox h6{
+    color: #3E4146;
+    font-size: 12px;
+    font-weight: bold;
+}
+.bbox h4{
+    font-size: 16px;
+    color: #292C31;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    font-weight: bold;
+}
+.bbox h5{
+    font-size: 11px;
+    padding-bottom: 20px;
+}
+.bbox button{
+    text-decoration: none;
+    display: flex;
+    height: 40px;
+    width: 180px;
+    background: black;
+    border-radius: 15px;
+    margin-top: 8px;
+    display: block;
+    color: #fff;
+    position: relative;
+    left: 55px;
+}
+button:nth-child(2){
+    background: white;
+    color: black;
+}
