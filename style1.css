@@ -59,30 +59,6 @@
     width: 100%;
     height: 300px;
 }
-.connection{
-    width: 100%;
-    height: 400px;
-    background: #F7F7FA;
-    padding: 15px 30px;
-}
-.connection h3{
-    text-align: center;
-    padding: 15px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-
-}
-.connection .images{
-    display: flex;
-
-}
-.connection .images .circle{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background: #ECEDFF;
-    display: flex;
-}
 .re{
     background: #fff;
 }
@@ -103,19 +79,26 @@
     padding: 20px 0;
 }
 .image{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #ECEDFF;
-    margin: 20px 20px;
+    margin: 20px 10px;
+}.image img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #ECEDFF;
+    margin-top: 40px;
 }
-.image img{
-    height: 50px;
-    width: 50px;
-    margin: 0;
+.image p{
+    margin-top: 8px;
+    color: black;
+    font-size: 15px;
 }
 .prepaid{
     display: flex;
@@ -151,6 +134,40 @@
     border-radius: 5px;
     text-decoration: none;
 }
+.getapp{
+    background: linear-gradient(to left, #F7D1CB,#FCEDD8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.getapp .offer img{
+    height: 30px;
+    width: 30px;
+}
+.getapp .text p{
+    font-size: 10px;
+}
+.getapp .btn a{
+    text-decoration: none;
+    padding: 0px 1px;
+    background: transparent;
+    border: solid 1px black;
+    border-radius: 15px;
+    font-size: 10px;
+    color: black;
+}
+.getapp .row{
+    justify-content: center;
+}
+
+.getapp .col-md-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 .text1{
     text-align: center;
     margin-top: 30px;
@@ -158,10 +175,11 @@
 }
 .abox{
     border-radius: 15px 15px 10px 10px;
-    margin-top: 40px;
+    margin: 40px 40px 0 30px;
     border: solid 1px black;
     height: 360px;
     width: 300px;
+    padding-right: 50px;
 }
 .aboximage img{
     width: 100%;
@@ -206,9 +224,24 @@
     border-bottom: solid 2px #2F5EE8;
     border-left: solid 1px #2F5EE8;
 
+}.bboxsection{
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 570px;
+    padding: 30px 0;
+    margin-top: 30px;
+    padding-left: 40px;
 }
-.bboxsection{
-    padding: 10px 80px;
+.bboxsection h3{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0;
 }
 .bbox{
     height: 380px;
@@ -218,6 +251,7 @@
     text-align: center;
     background: #F4F5FF;
     padding: 10px 20px;
+    position: relative;
 }
 .bbox h6{
     color: #3E4146;
